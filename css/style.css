@@ -73,4 +73,5 @@ h2 {
 
 .open {
   color: rgba(252, 5, 5, 0.8);
+  text-decoration: none;
 }
