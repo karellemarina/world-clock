@@ -26,13 +26,16 @@ select {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 544px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/175/original/clockcontainer2.png?1713956183");
   margin: 0 auto;
-  background-color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 30px;
   margin: 0 auto;
-  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   justify-content: center;
 }
 
