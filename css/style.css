@@ -67,3 +67,7 @@ h2 {
   vertical-align: middle;
   line-height: 36px;
 }
+
+.open {
+  color: rgba(252, 5, 5, 0.8);
+}
