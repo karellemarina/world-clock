@@ -8,7 +8,7 @@ function updateTime() {
 
     losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
     losAngelesTimeElement.innerHTML = losAngelesTime.format(
-      "h:mm:ss  [<small>]A[</small>]"
+      "h:mm:ss   [<small>]A[</small>]"
     );
   }
 
@@ -23,7 +23,7 @@ function updateTime() {
 
     parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
     parisTimeElement.innerHTML = parisTime.format(
-      "h:mm:ss  [<small>]A[</small>]"
+      "h:mm:ss   [<small>]A[</small>]"
     );
   }
 }
@@ -43,7 +43,14 @@ function updateCity(event) {
           </div>
           <div class="time">${cityTime.format(
             "h:mm:ss"
-          )}<small>${cityTime.format("A")}</small></div>
+          )} <small>${cityTime.format("A")}</small></div>
+        </div>
+              <div class="linkcitites">
+          <a
+            href="https://the-world-clock-project-js.netlify.app/"
+            target="_blank"
+            >All cities</a
+          >
         </div>`;
 }
 
