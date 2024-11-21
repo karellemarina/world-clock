@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   margin: 40px;
   background-size: 800px;
+  background-color: black;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 select {
@@ -75,6 +76,6 @@ h2 {
 }
 
 .open {
-  color: rgba(252, 5, 5, 0.8);
+  color: rgba(249, 9, 9, 0.8);
   text-decoration: none;
 }
