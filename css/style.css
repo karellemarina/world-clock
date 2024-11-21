@@ -83,5 +83,6 @@ h2 {
 @media (max-width: 600px) {
   .container {
     background-image: none;
+    background-color: white;
   }
 }
